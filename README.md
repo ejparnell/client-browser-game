@@ -2,7 +2,7 @@
 
 This project is a showcase of simple browser games. Games include:
 
-- Rock, paper, scissors
+- Rock, paper, scissors x
 - Quiz Game
 - Choose your own adventure
 - Spaceman

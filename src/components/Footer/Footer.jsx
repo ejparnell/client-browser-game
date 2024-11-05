@@ -12,7 +12,7 @@ const Container = styled.footer`
 
 export function Footer() {
     return (
-        <Container className='footer'>
+        <Container>
             <p>Footer</p>
         </Container>
     )

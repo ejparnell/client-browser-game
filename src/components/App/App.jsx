@@ -6,6 +6,7 @@ import { SignUp } from '../../Auth/SignUp/SignUp'
 import { Message } from '../Message/Message'
 import { SignIn } from '../../Auth/SignIn/SignIn'
 import { GamesHome } from '../../games/GamesHome'
+import { RPSHome } from '../../games/rock-paper-scissors/RPSHome/RSPHome'
 
 import './App.css'
 
@@ -30,7 +31,7 @@ function App() {
           <Route path='/signup' element={<SignUp />} />
           <Route path='/signin' element={<SignIn />} />
           <Route path='/games' element={<GamesHome />} />
-          <Route path='/rock-paper-scissors' element={<h1>Rock Paper Scissors</h1>} />
+          <Route path='/rock-paper-scissors' element={<RPSHome />} />
         </Routes>
         {messages.map((message) => (
           <Message
